@@ -1,0 +1,7 @@
+Number of training set rows: 397
+Number of test set rows: 203
+Model accuracy: 95.567%
+Time to train model: 2.476 seconds
+Area under Precision/Recall (PR) curve: 94
+Area under Receiver Operating Characteristic (ROC) curve: 94.993
+Time to evaluate model: 2.476 seconds
