@@ -1,6 +1,10 @@
 # BigdataAnalyst_CANCERDATA_SPARK-ML-PYTHON-HDFS
 # Dao Van Thang - 18133050
 Use MachineLearnning in Spark ,RDD, Spark SQL, to predict cancer for a hospital.
+
+About Random Forest classifer in Spark Machine Learning:
+
+[Random Forest classifer](https://spark.apache.org/docs/latest/ml-classification-regression.html#random-forest-classifier)
 * Version <table>
 
     <tr>
@@ -21,8 +25,10 @@ Use MachineLearnning in Spark ,RDD, Spark SQL, to predict cancer for a hospital.
 
 ```start-all.sh```
 
-* run spark:
+* run spark: 
+
 ```start-master.sh```
+
 ```start-worker.sh```
 
 * put file data to HDFS:
@@ -33,6 +39,6 @@ Use MachineLearnning in Spark ,RDD, Spark SQL, to predict cancer for a hospital.
 
 ```spark-submit --master spark://master:7077  rdfoorest.py```
 
-## see info model in txt
+## After you run model, see info modeling in txt
 
 textRandomForestinfo.txt
