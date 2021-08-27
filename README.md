@@ -1,21 +1,37 @@
 # BigdataAnalyst_CANCERDATA_SPARK-ML-PYTHON-HDFS
 # Dao Van Thang - 18133050
-# MachineLearnning by pyspark use RDD, Spark SQL, to predict cancer for a hospital.
-#run hadoop
+Use MachineLearnning in Spark ,RDD, Spark SQL, to predict cancer for a hospital.
+* Version <table>
 
-start-all.sh
+    <tr>
+        <td>Hadoop</td>
+        <td>2.2.7</td>
+    </tr>
+    <tr>
+        <td>Java</td>
+        <td>1.8</td>
+    </tr>
+    <tr>
+        <td>Spark</td>
+        <td>3.0.3</td>
+    </tr>
+   </table>
+# *BUILD PROJECT*
+* run hadoop:
 
-# run spark
-start-master.sh
-start-worker.sh
+```start-all.sh```
 
-#put file data to HDFS:
+* run spark:
+```start-master.sh```
+```start-worker.sh```
 
-hadoop/bin/hdfs dfs put /thang canceryn.csv
+* put file data to HDFS:
 
-#submit python file to pyspark : 
+```hadoop/bin/hdfs dfs put /thang canceryn.csv```
 
-spark-submit --master spark://master:7077  rdfoorest.py
+* submit python file to pyspark : 
+
+```spark-submit --master spark://master:7077  rdfoorest.py```
 
 ## see info model in txt
 
